@@ -1,93 +1,68 @@
-# **Airbnb Bookings Analysis - Exploratory Data Analysis (EDA)**  
+Airbnb Bookings Analysis - Exploratory Data Analysis (EDA)
+Welcome to my Airbnb Bookings Analysis project! This capstone project explores Airbnb listings in New York City to uncover key insights that can enhance guest experiences, support hosts, and optimize pricing strategies.
 
-Welcome to my **Airbnb Bookings Analysis** project! This capstone project explores Airbnb listings in **New York City** to uncover key insights that can enhance guest experiences, support hosts, and optimize pricing strategies.  
+Project Overview
+Scope: Analyzed 48,000+ Airbnb listings from 2019 in NYC.
+Goal: Identify trends, growth opportunities, and pricing strategies to help Airbnb and hosts improve their services.
+Tools: Python (Pandas, NumPy, Matplotlib, Seaborn) in Google Colab.
+Date: February 26, 2025.
+GitHub Repo: GitHub Link
+Dataset Details
+The dataset consists of 48,895 rows and 16 columns, including:
 
-## **Project Overview**  
-- **Scope**: Analyzed **48,000+ Airbnb listings from 2019** in NYC.  
-- **Goal**: Identify trends, growth opportunities, and pricing strategies to help Airbnb and hosts improve their services.  
-- **Tools**: **Python** (Pandas, NumPy, Matplotlib, Seaborn) in **Google Colab**.  
-- **Date**: **February 26, 2025**.  
-- **GitHub Repo**: [GitHub Link](https://github.com/DatagenieSK/Sk_Alauddin_EDA_AirBnb_Bookings_Analysis_Capstone_Project)  
+Basic Info: id, name, host_id, host_name
+Location Data: neighbourhood_group, neighbourhood, latitude, longitude
+Property Details: room_type, price, minimum_nights
+Guest Insights: number_of_reviews, last_review, reviews_per_month
+Host Activity: calculated_host_listings_count, availability_365
+I performed data cleaning, visualization, and analysis to extract meaningful insights.
 
----
+Key Findings
+📍 Customer Preferences
+Brooklyn is the most popular area.
+Manhattan is the most expensive.
+Entire homes/apartments are the preferred choice.
+🚀 Growth Opportunities
+Staten Island and parts of Brooklyn are emerging markets.
+Queens has room for expansion and increased demand.
+🏡 Host Insights
+Some hosts dominate the market, while many listings have zero reviews.
+💰 Pricing Trends
+Prices peak in winter (October–January).
+Entire homes are significantly pricier than shared spaces.
+Recommendations
+For Guests 🏨
+Budget travelers: Explore the Bronx.
+Mid-range stays: Consider Williamsburg, Brooklyn.
+Luxury seekers: Manhattan is the best choice.
+Families: Greenwich Village offers great options.
+Encourage guests to leave reviews for better trust and insights.
+For Growth 📈
+Promote Staten Island & Queens with host incentives.
+Increase marketing efforts in emerging neighborhoods.
+For Hosts 🏠
+Provide training programs for new hosts.
+Offer rewards for top-rated hosts.
+Implement dynamic pricing strategies to maximize earnings.
+For Airbnb 🔍
+Introduce personalized booking recommendations.
+Utilize data-driven pricing models to optimize revenue.
+How to Run the Project
+Clone the repository:
+bash
+Copy
+Edit
+git clone https://github.com/DatagenieSK/Sk_Alauddin_EDA_AirBnb_Bookings_Analysis_Capstone_Project.git
+Open Sk_Alauddin_EDA_AirBnb_Bookings_Analysis.ipynb in Google Colab or Jupyter Notebook.
+Ensure the dataset (Airbnb NYC 2019.csv) is in the same folder (or update the file path).
+Run all cells to explore the data, insights, and visualizations!
+Project Files
+📂 Sk_Alauddin_EDA_AirBnb_Bookings_Analysis.ipynb → The main analysis notebook.
+📂 Airbnb NYC 2019.csv → Dataset (check repo or source separately).
+Connect with Me
+👤 Author: Sk Alauddin (DatagenieSK)
+📌 GitHub: DatagenieSK
+💬 Have questions? Open an issue in the GitHub repo or reach out!
 
-## **Dataset Details**  
-The dataset consists of **48,895 rows and 16 columns**, including:  
-- **Basic Info**: `id`, `name`, `host_id`, `host_name`  
-- **Location Data**: `neighbourhood_group`, `neighbourhood`, `latitude`, `longitude`  
-- **Property Details**: `room_type`, `price`, `minimum_nights`  
-- **Guest Insights**: `number_of_reviews`, `last_review`, `reviews_per_month`  
-- **Host Activity**: `calculated_host_listings_count`, `availability_365`  
-
-I performed **data cleaning, visualization, and analysis** to extract meaningful insights.  
-
----
-
-## **Key Findings**  
-### 📍 **Customer Preferences**  
-- **Brooklyn** is the most popular area.  
-- **Manhattan** is the most expensive.  
-- **Entire homes/apartments** are the preferred choice.  
-
-### 🚀 **Growth Opportunities**  
-- Staten Island and parts of Brooklyn are emerging markets.  
-- Queens has **room for expansion** and increased demand.  
-
-### 🏡 **Host Insights**  
-- Some hosts dominate the market, while many listings have **zero reviews**.  
-
-### 💰 **Pricing Trends**  
-- Prices **peak in winter (October–January)**.  
-- Entire homes are **significantly pricier** than shared spaces.  
-
----
-
-## **Recommendations**  
-### **For Guests** 🏨  
-- **Budget travelers**: Explore **the Bronx**.  
-- **Mid-range stays**: Consider **Williamsburg, Brooklyn**.  
-- **Luxury seekers**: Manhattan is the best choice.  
-- **Families**: Greenwich Village offers great options.  
-- Encourage guests to **leave reviews** for better trust and insights.  
-
-### **For Growth** 📈  
-- Promote **Staten Island & Queens** with host incentives.  
-- Increase **marketing efforts** in emerging neighborhoods.  
-
-### **For Hosts** 🏠  
-- Provide **training programs** for new hosts.  
-- Offer **rewards** for top-rated hosts.  
-- Implement **dynamic pricing strategies** to maximize earnings.  
-
-### **For Airbnb** 🔍  
-- Introduce **personalized booking recommendations**.  
-- Utilize **data-driven pricing models** to optimize revenue.  
-
----
-
-## **How to Run the Project**  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/DatagenieSK/Sk_Alauddin_EDA_AirBnb_Bookings_Analysis_Capstone_Project.git
-   ```
-2. Open `Sk_Alauddin_EDA_AirBnb_Bookings_Analysis.ipynb` in **Google Colab** or **Jupyter Notebook**.  
-3. Ensure the dataset (`Airbnb NYC 2019.csv`) is in the same folder (or update the file path).  
-4. Run all cells to explore the data, insights, and visualizations!  
-
----
-
-## **Project Files**  
-- 📂 **`Sk_Alauddin_EDA_AirBnb_Bookings_Analysis.ipynb`** → The main analysis notebook.  
-- 📂 **`Airbnb NYC 2019.csv`** → Dataset (check repo or source separately).  
-
----
-
-## **Connect with Me**  
-👤 **Author**: **Sk Alauddin (DatagenieSK)**  
-📌 **GitHub**: [DatagenieSK](https://github.com/DatagenieSK)  
-💬 Have questions? Open an **issue** in the GitHub repo or reach out!  
-
----
-
-## **Thank You!**  
-Thanks for exploring my project! 🚀 I'd love to hear your thoughts—feel free to leave feedback or suggestions. 😊  
+Thank You!
+Thanks for exploring my project! 🚀 I'd love to hear your thoughts—feel free to leave feedback or suggestions. 😊
